@@ -7,13 +7,18 @@
 //
 
 #import "STAppDelegate.h"
+#import "STBase62Converter.h"
 
 @implementation STAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    STBase62Converter *baseConverter = [[STBase62Converter alloc] init];
+    NSString *no = [baseConverter getBase62FromDecimal:9876543210];
+    [baseConverter getDecimalFromBase62:no];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
