@@ -18,4 +18,4 @@ A Simple Decimal to Base 62 Converter
 
 ## Custom Base Mapping
 
-- If you need custom base mapping, modify the BaseContent.txt and make sure there are no duplicate entires present.
+- If you need custom base mapping, modify the BaseContent.txt and make sure there are no duplicate entries present.
