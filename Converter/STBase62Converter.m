@@ -34,14 +34,14 @@
     for (NSString *eachElement in lines)
         [self.baseArray addObject:eachElement];
     
-    NSLog(@"Base %d", [self.baseArray count]);
+    NSLog(@"Base %lu", (unsigned long)[self.baseArray count]);
 
     [self checkDuplicates];
 }
 
 -(NSString *) getBase62FromDecimal:(long long) number {
     NSLog(@"Original Number %lli",number);
-    int baseCount = [self.baseArray count];
+    NSUInteger baseCount = [self.baseArray count];
     long long quotient;
     long remainder;
     NSString *quotientString = @"";
@@ -68,7 +68,7 @@
 
 -(long long) getDecimalFromBase62:(NSString *) number {
     
-    int baseCount = [self.baseArray count];
+    NSUInteger baseCount = [self.baseArray count];
     long long decimalNumber;
     
     for (int i =0; i<[number length]; i++) {
@@ -90,7 +90,7 @@
     NSInteger index = [copy count] - 1;
     for (id object in [copy reverseObjectEnumerator]) {
         if ([self.baseArray indexOfObject:object inRange:NSMakeRange(0, index)] != NSNotFound) {
-            NSLog(@"ERROR... Dublicate object at index %d", index);
+            NSLog(@"ERROR... Dublicate object at index %ld", (long)index);
             NSLog(@"Conversion May no work properly");
         }
         index--;

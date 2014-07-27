@@ -24,6 +24,10 @@
 		18E9B88D179C3EAD0072A6D1 /* STBase62Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9B88C179C3EAD0072A6D1 /* STBase62Converter.m */; };
 		18E9B88F179C3FEE0072A6D1 /* BaseContent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */; };
 		18E9B891179C42810072A6D1 /* BaseContentHexa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18E9B890179C42810072A6D1 /* BaseContentHexa.txt */; };
+		99551169FFE145D1824E0C92 /* libPods-Converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE89E318FA0A4FB9A58BDF8A /* libPods-Converter.a */; };
+		B2655E4E1985438600583F04 /* STMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2655E4C1985438600583F04 /* STMainViewController.m */; };
+		B2655E521985460600583F04 /* PasswordStrengthIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2655E511985460600583F04 /* PasswordStrengthIndicatorView.m */; };
+		B2655E551985478100583F04 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B2655E541985478100583F04 /* UIColor+CustomColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,14 @@
 		18E9B88C179C3EAD0072A6D1 /* STBase62Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBase62Converter.m; sourceTree = "<group>"; };
 		18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseContent.txt; sourceTree = "<group>"; };
 		18E9B890179C42810072A6D1 /* BaseContentHexa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseContentHexa.txt; sourceTree = "<group>"; };
+		A85C2B366A1349D299844343 /* Pods-Converter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Converter.xcconfig"; path = "Pods/Pods-Converter.xcconfig"; sourceTree = "<group>"; };
+		B2655E4B1985438600583F04 /* STMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMainViewController.h; sourceTree = "<group>"; };
+		B2655E4C1985438600583F04 /* STMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMainViewController.m; sourceTree = "<group>"; };
+		B2655E501985460600583F04 /* PasswordStrengthIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordStrengthIndicatorView.h; sourceTree = "<group>"; };
+		B2655E511985460600583F04 /* PasswordStrengthIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordStrengthIndicatorView.m; sourceTree = "<group>"; };
+		B2655E531985478100583F04 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		B2655E541985478100583F04 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		FE89E318FA0A4FB9A58BDF8A /* libPods-Converter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Converter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 				18E9B857179C3D440072A6D1 /* UIKit.framework in Frameworks */,
 				18E9B859179C3D440072A6D1 /* Foundation.framework in Frameworks */,
 				18E9B85B179C3D440072A6D1 /* CoreGraphics.framework in Frameworks */,
+				99551169FFE145D1824E0C92 /* libPods-Converter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +106,7 @@
 				18E9B87A179C3D440072A6D1 /* ConverterTests */,
 				18E9B855179C3D440072A6D1 /* Frameworks */,
 				18E9B854179C3D440072A6D1 /* Products */,
+				A85C2B366A1349D299844343 /* Pods-Converter.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +126,7 @@
 				18E9B858179C3D440072A6D1 /* Foundation.framework */,
 				18E9B85A179C3D440072A6D1 /* CoreGraphics.framework */,
 				18E9B874179C3D440072A6D1 /* SenTestingKit.framework */,
+				FE89E318FA0A4FB9A58BDF8A /* libPods-Converter.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,11 +136,17 @@
 			children = (
 				18E9B865179C3D440072A6D1 /* STAppDelegate.h */,
 				18E9B866179C3D440072A6D1 /* STAppDelegate.m */,
-				18E9B85D179C3D440072A6D1 /* Supporting Files */,
 				18E9B88B179C3EAD0072A6D1 /* STBase62Converter.h */,
 				18E9B88C179C3EAD0072A6D1 /* STBase62Converter.m */,
 				18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */,
 				18E9B890179C42810072A6D1 /* BaseContentHexa.txt */,
+				18E9B85D179C3D440072A6D1 /* Supporting Files */,
+				B2655E4B1985438600583F04 /* STMainViewController.h */,
+				B2655E4C1985438600583F04 /* STMainViewController.m */,
+				B2655E501985460600583F04 /* PasswordStrengthIndicatorView.h */,
+				B2655E511985460600583F04 /* PasswordStrengthIndicatorView.m */,
+				B2655E531985478100583F04 /* UIColor+CustomColors.h */,
+				B2655E541985478100583F04 /* UIColor+CustomColors.m */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -170,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E9B885179C3D440072A6D1 /* Build configuration list for PBXNativeTarget "Converter" */;
 			buildPhases = (
+				C0D00C6B67664C6B8A1CB9F1 /* Check Pods Manifest.lock */,
 				18E9B84F179C3D440072A6D1 /* Sources */,
 				18E9B850179C3D440072A6D1 /* Frameworks */,
 				18E9B851179C3D440072A6D1 /* Resources */,
+				2057D1F0FDD6403F8B171D40 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +291,36 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		2057D1F0FDD6403F8B171D40 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Converter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D00C6B67664C6B8A1CB9F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,6 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2655E551985478100583F04 /* UIColor+CustomColors.m in Sources */,
+				B2655E4E1985438600583F04 /* STMainViewController.m in Sources */,
+				B2655E521985460600583F04 /* PasswordStrengthIndicatorView.m in Sources */,
 				18E9B863179C3D440072A6D1 /* main.m in Sources */,
 				18E9B867179C3D440072A6D1 /* STAppDelegate.m in Sources */,
 				18E9B88D179C3EAD0072A6D1 /* STBase62Converter.m in Sources */,
@@ -377,6 +433,7 @@
 		};
 		18E9B886179C3D440072A6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85C2B366A1349D299844343 /* Pods-Converter.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Converter/Converter-Prefix.pch";
@@ -388,6 +445,7 @@
 		};
 		18E9B887179C3D440072A6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85C2B366A1349D299844343 /* Pods-Converter.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Converter/Converter-Prefix.pch";
@@ -450,6 +508,7 @@
 				18E9B887179C3D440072A6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9B888179C3D440072A6D1 /* Build configuration list for PBXNativeTarget "ConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +517,7 @@
 				18E9B88A179C3D440072A6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

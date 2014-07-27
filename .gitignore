@@ -1,0 +1,20 @@
+# xcode noise
+build/
+#TODO (GMR): Review the below line later.
+**/build
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+
+# xcode 4 noise
+xcuserdata
+**/*.xcodeproj/project.xcworkspace
+
+# osx noise
+.DS_Store
+profile
+Converter.xcworkspace/xcshareddata/Converter.xccheckout
+Converter.xcodeproj/project.xcworkspace/xcshareddata/Converter.xccheckout
+Converter.xcworkspace/contents.xcworkspacedata

@@ -8,6 +8,7 @@
 
 #import "STAppDelegate.h"
 #import "STBase62Converter.h"
+#import "STMainViewController.h"
 
 @implementation STAppDelegate
 
@@ -15,10 +16,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    STBase62Converter *baseConverter = [[STBase62Converter alloc] init];
-    NSString *no = [baseConverter getBase62FromDecimal:9876543210];
-    [baseConverter getDecimalFromBase62:no];
-    
+  STMainViewController *mainViewController = [STMainViewController new ];
+  UINavigationController *navigationController = [[UINavigationController alloc]
+                                                  initWithRootViewController:mainViewController];
+
+  self.window.rootViewController = navigationController;
+//    STBase62Converter *baseConverter = [[STBase62Converter alloc] init];
+//    NSString *no = [baseConverter getBase62FromDecimal:9876543210];
+//    [baseConverter getDecimalFromBase62:no];
+  
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
