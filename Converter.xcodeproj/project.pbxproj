@@ -25,6 +25,11 @@
 		18E9B88F179C3FEE0072A6D1 /* BaseContent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */; };
 		18E9B891179C42810072A6D1 /* BaseContentHexa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18E9B890179C42810072A6D1 /* BaseContentHexa.txt */; };
 		99551169FFE145D1824E0C92 /* libPods-Converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE89E318FA0A4FB9A58BDF8A /* libPods-Converter.a */; };
+		B2538CE6198590F500D019C4 /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2538CE4198590F500D019C4 /* STHomeViewController.m */; };
+		B2538CE7198590F500D019C4 /* STHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2538CE5198590F500D019C4 /* STHomeViewController.xib */; };
+		B2538CEA19859D6500D019C4 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2538CE919859D6500D019C4 /* ModalViewController.m */; };
+		B2538CED19859D8A00D019C4 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2538CEC19859D8A00D019C4 /* DismissingAnimator.m */; };
+		B2538CF019859D9100D019C4 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2538CEF19859D9100D019C4 /* PresentingAnimator.m */; };
 		B2655E4E1985438600583F04 /* STMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2655E4C1985438600583F04 /* STMainViewController.m */; };
 		B2655E521985460600583F04 /* PasswordStrengthIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2655E511985460600583F04 /* PasswordStrengthIndicatorView.m */; };
 		B2655E551985478100583F04 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B2655E541985478100583F04 /* UIColor+CustomColors.m */; };
@@ -65,6 +70,15 @@
 		18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseContent.txt; sourceTree = "<group>"; };
 		18E9B890179C42810072A6D1 /* BaseContentHexa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseContentHexa.txt; sourceTree = "<group>"; };
 		A85C2B366A1349D299844343 /* Pods-Converter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Converter.xcconfig"; path = "Pods/Pods-Converter.xcconfig"; sourceTree = "<group>"; };
+		B2538CE3198590F500D019C4 /* STHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHomeViewController.h; sourceTree = "<group>"; };
+		B2538CE4198590F500D019C4 /* STHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHomeViewController.m; sourceTree = "<group>"; };
+		B2538CE5198590F500D019C4 /* STHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STHomeViewController.xib; sourceTree = "<group>"; };
+		B2538CE819859D6500D019C4 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		B2538CE919859D6500D019C4 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		B2538CEB19859D8A00D019C4 /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		B2538CEC19859D8A00D019C4 /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		B2538CEE19859D9100D019C4 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		B2538CEF19859D9100D019C4 /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
 		B2655E4B1985438600583F04 /* STMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMainViewController.h; sourceTree = "<group>"; };
 		B2655E4C1985438600583F04 /* STMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMainViewController.m; sourceTree = "<group>"; };
 		B2655E501985460600583F04 /* PasswordStrengthIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordStrengthIndicatorView.h; sourceTree = "<group>"; };
@@ -134,19 +148,11 @@
 		18E9B85C179C3D440072A6D1 /* Converter */ = {
 			isa = PBXGroup;
 			children = (
-				18E9B865179C3D440072A6D1 /* STAppDelegate.h */,
-				18E9B866179C3D440072A6D1 /* STAppDelegate.m */,
-				18E9B88B179C3EAD0072A6D1 /* STBase62Converter.h */,
-				18E9B88C179C3EAD0072A6D1 /* STBase62Converter.m */,
-				18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */,
-				18E9B890179C42810072A6D1 /* BaseContentHexa.txt */,
+				B2538CE2198590DB00D019C4 /* Home */,
+				B2538CF11985A32B00D019C4 /* ModalViews */,
+				B2538CF21985A34A00D019C4 /* Other */,
+				B2538CE1198590CB00D019C4 /* Main */,
 				18E9B85D179C3D440072A6D1 /* Supporting Files */,
-				B2655E4B1985438600583F04 /* STMainViewController.h */,
-				B2655E4C1985438600583F04 /* STMainViewController.m */,
-				B2655E501985460600583F04 /* PasswordStrengthIndicatorView.h */,
-				B2655E511985460600583F04 /* PasswordStrengthIndicatorView.m */,
-				B2655E531985478100583F04 /* UIColor+CustomColors.h */,
-				B2655E541985478100583F04 /* UIColor+CustomColors.m */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -182,6 +188,55 @@
 				18E9B87D179C3D440072A6D1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2538CE1198590CB00D019C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B2655E4B1985438600583F04 /* STMainViewController.h */,
+				B2655E4C1985438600583F04 /* STMainViewController.m */,
+				B2655E501985460600583F04 /* PasswordStrengthIndicatorView.h */,
+				B2655E511985460600583F04 /* PasswordStrengthIndicatorView.m */,
+				B2655E531985478100583F04 /* UIColor+CustomColors.h */,
+				B2655E541985478100583F04 /* UIColor+CustomColors.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B2538CE2198590DB00D019C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18E9B865179C3D440072A6D1 /* STAppDelegate.h */,
+				18E9B866179C3D440072A6D1 /* STAppDelegate.m */,
+				B2538CE3198590F500D019C4 /* STHomeViewController.h */,
+				B2538CE4198590F500D019C4 /* STHomeViewController.m */,
+				B2538CE5198590F500D019C4 /* STHomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B2538CF11985A32B00D019C4 /* ModalViews */ = {
+			isa = PBXGroup;
+			children = (
+				B2538CE819859D6500D019C4 /* ModalViewController.h */,
+				B2538CE919859D6500D019C4 /* ModalViewController.m */,
+				B2538CEB19859D8A00D019C4 /* DismissingAnimator.h */,
+				B2538CEC19859D8A00D019C4 /* DismissingAnimator.m */,
+				B2538CEE19859D9100D019C4 /* PresentingAnimator.h */,
+				B2538CEF19859D9100D019C4 /* PresentingAnimator.m */,
+			);
+			name = ModalViews;
+			sourceTree = "<group>";
+		};
+		B2538CF21985A34A00D019C4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18E9B88B179C3EAD0072A6D1 /* STBase62Converter.h */,
+				18E9B88C179C3EAD0072A6D1 /* STBase62Converter.m */,
+				18E9B88E179C3FEE0072A6D1 /* BaseContent.txt */,
+				18E9B890179C42810072A6D1 /* BaseContentHexa.txt */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +315,7 @@
 			files = (
 				18E9B861179C3D440072A6D1 /* InfoPlist.strings in Resources */,
 				18E9B869179C3D440072A6D1 /* Default.png in Resources */,
+				B2538CE7198590F500D019C4 /* STHomeViewController.xib in Resources */,
 				18E9B86B179C3D440072A6D1 /* Default@2x.png in Resources */,
 				18E9B86D179C3D440072A6D1 /* Default-568h@2x.png in Resources */,
 				18E9B88F179C3FEE0072A6D1 /* BaseContent.txt in Resources */,
@@ -330,9 +386,13 @@
 			files = (
 				B2655E551985478100583F04 /* UIColor+CustomColors.m in Sources */,
 				B2655E4E1985438600583F04 /* STMainViewController.m in Sources */,
+				B2538CED19859D8A00D019C4 /* DismissingAnimator.m in Sources */,
 				B2655E521985460600583F04 /* PasswordStrengthIndicatorView.m in Sources */,
 				18E9B863179C3D440072A6D1 /* main.m in Sources */,
+				B2538CEA19859D6500D019C4 /* ModalViewController.m in Sources */,
 				18E9B867179C3D440072A6D1 /* STAppDelegate.m in Sources */,
+				B2538CF019859D9100D019C4 /* PresentingAnimator.m in Sources */,
+				B2538CE6198590F500D019C4 /* STHomeViewController.m in Sources */,
 				18E9B88D179C3EAD0072A6D1 /* STBase62Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
