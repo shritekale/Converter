@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1809E909-A3A8-4A40-B9B5-04FEEE899800</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Converter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9A06C4C2-7048-4E6D-B586-8C6048A1DB3D</key>
+		<string>https://github.com/shritekale/Converter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Converter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9A06C4C2-7048-4E6D-B586-8C6048A1DB3D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shritekale/Converter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9A06C4C2-7048-4E6D-B586-8C6048A1DB3D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9A06C4C2-7048-4E6D-B586-8C6048A1DB3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Converter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
